@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Removing Markers</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>covid-19 Brea</h1>
+    <div id="parrafoSuperior">
+      <p>Buenas este es un proyecto de prueba para la gente de brea.
+        Se trata de un mapa con las cordenadas de brea de aragón donde aparecen
+        todas las calles del pueblo y los comercios. 
+      </p>
+      <p>Su funcionamiento es sencillo, se trata de una web donde puedes hacer click dentro
+        del mapa para marcar tu localización, despues te aparecera un circulo rojo, el cual te 
+        marcara 1km de radio donde puedes moverte para realizar los paseos aprobados por el gobierno.</p>
+      <p> En cuanto al funcionamiento de la web es sencillo :</p>
+      <ol>
+      <li>Haces click en el mapa para asignar un punto</li>
+      <li>Haces click en el mapa para borrar el punto</li>
+      <li>Haces click en el mapa para asignar un nuevo punto</li>
+      </ol>
+    </div>
+    <div id="map"></div>
+    <div>
+      <p>Daniel Gil Benedi</p>
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9lTGfgOLq4i-icU_qHnEujXgq_uXBfg8&callback=initMap">
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
